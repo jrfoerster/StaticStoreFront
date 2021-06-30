@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    border-radius: 5px;
 }
 
 html {
@@ -12,7 +13,7 @@ body, h1, h2, h3, img, p, ul, li {
 }
 
 body {
-    background-color: lightseagreen;
+    background-color: #003554;
     margin: 0 auto;
     max-width: 960px;
     padding: 1rem;
@@ -22,19 +23,30 @@ header, footer, main, section, .card, .card img, .card h3{
     box-shadow: 5px 5px 10px rgba(0,0,0,0.25);
 }
 
-header, main, section, img {
+header, footer, main, section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+h2 {
+    grid-column: 1 / -1;
+}
+
+header, main, section {
     margin-bottom: 2rem;
 }
 
-header, footer, .card h3 {
+header, footer {
     width: 100%;
     color: white;
-    background-color: black;
+    background-color: #051923;
     border: 2px solid white;
     padding: 1rem;
 }
 
 main, section {
+    background-color: #006494;
     border: 2px solid white;
     padding: 1rem;
     max-width: 960px;
@@ -67,33 +79,24 @@ nav li {
     list-style: none;
 }
 
-.cards {
-    background-color: lightseagreen;
-}
-
-header, footer, .cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-}
-
 .card {
-    background-color: red;
+    background-color: #0582ca;
     text-align: center;
     padding: 1rem;
 }
 
 .card img {
     max-width: 100%;
+    margin-bottom: 1rem;
 }
 
 .card h3 {
-    background-color: black;
+    background-color: #00a6fb;
     padding: 1rem;
 }
 
 .card a {
-    color: lightseagreen;
+    color: white;
     text-decoration: none;
 }
 
