@@ -127,7 +127,8 @@ nav li {
 }
 
 .card img {
-    background-color: #00a6fb;
+    /* background-color: #00a6fb; */
+    mix-blend-mode: lighten;
     max-width: 100%;
     margin-bottom: 1rem;
 }
