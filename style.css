@@ -8,6 +8,7 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 html {
@@ -15,8 +16,8 @@ html {
     font-size: 100%;
 }
 
-h1, h2, h3, img, p, ul, li, a {
-    margin: 0;
+h1, h2, h3, img, p, ul, li, a, button {
+    /* margin: 0; */
     color: white;
 }
 
@@ -42,7 +43,7 @@ a {
 
 body {
     background-color: #003554;
-    margin: 0 auto;
+    margin: auto;
     max-width: 60rem;
     padding: 1rem;
 }
@@ -169,7 +170,7 @@ label {
 } */
 
 button {
-    color: white;
+    /* color: white; */
     font-weight: bold;
     /* border-style: none; */
 }
