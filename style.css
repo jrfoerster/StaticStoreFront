@@ -142,10 +142,10 @@ nav li {
 footer button {
     background-color: #00a6fb;
     padding: 1rem;
-    border-style: none;
+    /* border-style: none; */
 }
 
-.card h3:hover,
+.card a:hover,
 footer button:hover {
     background-color: #003554;
 }
@@ -157,6 +157,7 @@ footer {
 input, button {
     font-size: 1rem;
     padding: 1rem;
+    border-style: none;
 }
 
 label {
@@ -170,6 +171,7 @@ label {
 button {
     color: white;
     font-weight: bold;
+    /* border-style: none; */
 }
 
 footer p {
