@@ -27,24 +27,20 @@ body {
     padding: 1rem;
 }
 
-header, footer, main, section, .card, .card img, .card h3{
+header, footer, main, section, .card, .card img, .card h3, input, button {
     box-shadow: 5px 5px 10px rgba(0,0,0,0.25);
     border-radius: 0.5rem;
 }
 
 header, footer, main, section {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 1rem;
 }
 
-h1 {
+h1, h2 {
     font-size: 2rem;
-}
-
-h2 {
-    grid-column: 1 / -1;
-    font-size: 2rem;
+    text-align: center;
 }
 
 h3 {
@@ -53,6 +49,7 @@ h3 {
 
 input, button {
     font-size: 1rem;
+    padding: 1rem;
 }
 
 header, main, section {
@@ -65,6 +62,7 @@ header, footer {
     background-color: #051923;
     border: 2px solid white;
     padding: 1rem;
+    /* padding-left: 0; */
     align-items: center;
 }
 
@@ -79,6 +77,7 @@ h1 a,
 nav a {
     color: white;
     text-decoration: none;
+    /* padding: 1rem; */
 }
 
 h1 a:hover, 
@@ -90,6 +89,7 @@ nav a:hover {
 nav ul {
     padding-left: 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
@@ -109,18 +109,24 @@ nav li {
     margin-bottom: 1rem;
 }
 
-.card h3 {
-    background-color: #00a6fb;
-    padding: 1rem;
-}
-
 .card a {
     color: white;
     text-decoration: none;
 }
 
+.card h3,
+footer button {
+    background-color: #00a6fb;
+    padding: 1rem;
+    border-style: none;
+}
+
+.card h3:hover,
+footer button:hover {
+    background-color: #003554;
+}
+
 footer {
-    width: 100%;
     color: white;
     padding: 1rem;
 }
@@ -129,6 +135,29 @@ footer label {
     display: none;
 }
 
+footer input, footer button {
+    width: 100%;
+}
+
+footer button {
+    color: white;
+    font-weight: bold;
+}
+
 footer p {
-    font-size: 0.75rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 600px)  {
+    header, main, section {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    h1, h2 {
+        text-align: left;
+    }
+
+    h2 {
+        grid-column: 1 / -1;
+    }
 }
