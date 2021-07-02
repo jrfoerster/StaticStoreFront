@@ -130,6 +130,7 @@ aside ul {
 
 aside li {
     line-height: 1.5;
+    margin-left: 0.75rem;
 }
 
 aside a {
@@ -161,6 +162,7 @@ button {
 
 footer p {
     text-align: center;
+    grid-column: 1 / -1;
 }
 
 @media screen and (min-width: 600px)  {
