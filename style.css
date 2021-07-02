@@ -84,7 +84,7 @@ main, section {
 
 header {
     align-items: center;
-    padding-left: 0;
+    /* padding-left: 0; */
 }
 
 header a {
@@ -186,6 +186,10 @@ footer p {
 @media screen and (min-width: 600px)  {
     header, main, section {
         grid-template-columns: 1fr 1fr;
+    }
+
+    header {
+        padding-left: 0;
     }
 
     h1, h2 {
