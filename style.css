@@ -48,12 +48,12 @@ body {
     padding: 1rem;
 }
 
-header, footer, main, section, .card, .card img, .card h3, input, button {
+header, footer, main, aside, .card, .card img, .card h3, input, button {
     box-shadow: 5px 5px 10px rgba(0,0,0,0.25);
     border-radius: 0.5rem;
 }
 
-header, footer, main, section {
+header, footer, main, aside {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
@@ -61,7 +61,7 @@ header, footer, main, section {
     padding: 1rem;
 }
 
-header, main, section {
+header, main, aside {
     margin-bottom: 2rem;
 }
 
@@ -75,7 +75,7 @@ header, footer {
     /* align-items: center; */
 }
 
-main, section {
+main, aside {
     background-color: #006494;
     /* border: 2px solid white;
     padding: 1rem; */
@@ -184,7 +184,7 @@ footer p {
 }
 
 @media screen and (min-width: 600px)  {
-    header, main, section {
+    header, main, aside {
         grid-template-columns: 1fr 1fr;
     }
 
