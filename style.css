@@ -47,7 +47,7 @@ body {
     padding: 1rem;
 }
 
-header, footer, main, aside, .card, .card img, .card h3, input, button {
+header, footer, main, aside, .card, .card img, .card a, input, button {
     box-shadow: 5px 5px 10px rgba(0,0,0,0.25);
     border-radius: 0.5rem;
 }
@@ -106,13 +106,14 @@ nav ul {
     margin-bottom: 1rem;
 }
 
-.card h3,
+.card a,
 footer button {
+    display: block;
     background-color: #00a6fb;
     padding: 1rem;
 }
 
-.card h3:hover,
+.card a:hover,
 footer button:hover {
     background-color: #003554;
 }
@@ -163,7 +164,7 @@ footer p {
 }
 
 @media screen and (min-width: 600px)  {
-    header, main, aside {
+    header, main, aside, footer {
         grid-template-columns: 1fr 1fr;
     }
 
