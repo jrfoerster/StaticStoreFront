@@ -17,7 +17,6 @@ html {
 }
 
 h1, h2, h3, img, p, ul, li, a, button {
-    /* margin: 0; */
     color: white;
 }
 
@@ -67,30 +66,18 @@ header, main, aside {
 }
 
 header, footer {
-    /* width: 100%; */
-    /* color: white; */
     background-color: #051923;
-    /* border: 2px solid white;
-    padding: 1rem; */
-    /* padding-left: 0; */
-    /* align-items: center; */
 }
 
 main, aside {
     background-color: #006494;
-    /* border: 2px solid white;
-    padding: 1rem; */
-    /* max-width: 960px; */
 }
 
 header {
     align-items: center;
-    /* padding-left: 0; */
 }
 
 header a {
-    /* color: white; */
-    /* text-decoration: none; */
     padding: 1rem;
 }
 
@@ -100,29 +87,12 @@ aside a:hover {
     background-color: white;
 }
 
-/* h1 a, 
-nav a {
-    color: white;
-    text-decoration: none;
-    padding: 1rem;
-} */
-
-/* h1 a:hover, 
-nav a:hover {
-    color: black;
-    background-color: white;
-} */
-
 nav ul {
     padding-left: 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
 }
-
-/* nav li {
-    list-style: none;
-} */
 
 .card {
     background-color: #0582ca;
@@ -131,22 +101,15 @@ nav ul {
 }
 
 .card img {
-    /* background-color: #00a6fb; */
     mix-blend-mode: lighten;
     max-width: 100%;
     margin-bottom: 1rem;
 }
 
-/* .card a {
-    color: white;
-    text-decoration: none;
-} */
-
 .card h3,
 footer button {
     background-color: #00a6fb;
     padding: 1rem;
-    /* border-style: none; */
 }
 
 .card h3:hover,
@@ -161,7 +124,6 @@ aside ul {
 }
 
 aside li {
-    /* list-style: none; */
     line-height: 1.5;
 }
 
@@ -187,14 +149,8 @@ label {
     display: none;
 }
 
-/* footer input, footer button {
-    width: 100%;
-} */
-
 button {
-    /* color: white; */
     font-weight: bold;
-    /* border-style: none; */
 }
 
 footer p {
