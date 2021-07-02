@@ -170,12 +170,13 @@ footer p {
         grid-template-columns: 1fr 1fr;
     }
 
-    header {
-        padding-left: 0;
-    }
-
     h1, h2 {
         text-align: left;
+    }
+
+    h1 {
+        position: relative;
+        transform: translateX(-1rem);
     }
 
     h2 {
