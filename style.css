@@ -43,7 +43,7 @@ a {
 body {
     background-color: #003554;
     margin: auto;
-    max-width: 60rem;
+    max-width: 62rem;
     padding: 1rem;
 }
 
@@ -135,10 +135,6 @@ aside li {
 
 aside a {
     padding: 0.25rem;
-}
-
-footer {
-    padding: 1rem;
 }
 
 form {
