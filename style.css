@@ -158,7 +158,6 @@ button {
 
 footer p {
     text-align: center;
-    grid-column: 1 / -1;
 }
 
 @media screen and (min-width: 600px)  {
@@ -174,7 +173,7 @@ footer p {
         transform: translateX(-1rem);
     }
 
-    h2 {
+    h2, footer p {
         grid-column: 1 / -1;
     }
 }
